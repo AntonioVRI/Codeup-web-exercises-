@@ -1,12 +1,12 @@
-console.log("Anthony");
-console.log("Susan");
-console.log("Rose");
-console.log("Maggie");
-console.log("Jess");
+console.log(name1 = "Anthony");
+console.log(name2 = "Susan");
+console.log(name3 = "Rose");
+console.log(name4 = "Maggie");
+console.log(name5 = "Jess");
 
 
 function sayHello(name) {
     console.log("Hello " + name);
     }
-    sayHello(name: "Anthony");
-    sayHello(name: "Rose");
+    sayHello(name1);
+    sayHello(name3);
