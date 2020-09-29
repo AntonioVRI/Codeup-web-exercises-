@@ -37,8 +37,13 @@ var helloMessage = function sayHello(name){
  * console.
  */
 
-var myName ="Anthony";
-function sayHello();
+function sayHello(name){
+    name = prompt("Hello! Please enter name: ");
+    var myName ="Anthony";
+
+    return name;
+
+}
 
 
 
@@ -64,6 +69,15 @@ var random = Math.floor((Math.random() * 3) + 1);
  * different result everytime you refresh the page if you are using the random
  * number)
  */
+
+function isTwo(number){
+
+    var random = Math.floor((Math.random() * 3) + 1);
+    if (number = 2)
+        return (true)
+
+}
+console.log(isTwo())
 
 /**
  * TODO:
