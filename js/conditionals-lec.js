@@ -316,7 +316,7 @@ console.log("hello from conditionals lec.js!");
 
 // var weather = "sunny";
 // var weatherMessage;
-
+//
 // if(weather === "rainy"){
 //    weatherMessage = "It's raining!";
 // } else {
@@ -325,6 +325,8 @@ console.log("hello from conditionals lec.js!");
 
 //WRITE YOUR TERNARY STATEMENT HERE!
 
+// var weatherMessage = (weather === "rainy") ? "It's raining!" : "Have a nice day!";
+// console.log(weatherMessage);
 
 
 // =============== SWITCH STATEMENT ================
@@ -347,10 +349,40 @@ console.log("hello from conditionals lec.js!");
 
 //TODO: Write a switch statement that evaluates weather as the condition. Check for "rainy", "sunny", "snow", and a default case.
 
+// var weather = "windy";
+// // default case
+//
+//     switch (weather){
+//         case "rainy":
+//             alert("Take an umbrella!");
+//             break;
+//         case "sunny":
+//             alert("It's hot today!");
+//             break;
+//         case "snow":
+//             alert("Wear a jacket!");
+//             break;
+//         default:
+//             alert("Have a great day!");
+//             break;
+//     }
 
 //TODO: Rewrite the intersection function from earlier as a switch statement.
 
-
+// var returnMessage;
+//
+// function stopLight(lightColor){
+//     switch (lightColor){
+//         case "green":
+//             returnMessage: "Go!";
+//         case "yellow":
+//             returnMessage: "slow down!";
+//         case "red":
+//             returnMessage: "Stop!";
+//         default:
+//         return returnMessage;
+//     }
+// }
 
 // ================ REVERSE ENGINEERING =================
 // Visit each of these links, outline the steps required to achieve each of these demonstrations. You can write code or just write the logic steps that would achieve each output

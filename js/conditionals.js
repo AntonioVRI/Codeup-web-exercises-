@@ -20,6 +20,21 @@
  * console.logging the function's return value
  */
 
+// function analyzeColor(randomColor = prompt("Enter your favorite color: ")){
+//
+//     if(randomColor === "blue"){
+//         alert("blue is the color of the sky");
+//     }else if(randomColor === "red"){
+//         alert("Strawberries are red");
+//     }else if(randomColor === "cyan"){
+//         alert("I don't know anything about cyan");
+//     }else{
+//         alert("Error. . . I have not learned that color yet!")
+//     }
+//
+// }
+// console.log(analyzeColor())
+
 // Don't change the next two lines!
 // These lines create two variables for you:
 // - `colors`: a list of the colors of the rainbow
@@ -33,17 +48,56 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * You should see a different message every time you refresh the page
  */
 
+function analyzeColor(randomColor){
+
+    if(randomColor === "blue"){
+        alert("blue is the color of the sky");
+    }else if(randomColor === "red"){
+        alert("Strawberries are red");
+    }else if(randomColor === "cyan"){
+        alert("I don't know anything about cyan");
+    }else{
+        alert(randomColor);
+    }
+
+
+}
+console.log(analyzeColor(randomColor))
+
+
 /**
  * TODO:
  * Refactor your above function to use a switch-case statement
  */
 
+// switch(randomColor){
+//     case "blue":
+//         alert("blue is the color of the sky");
+//         break;
+//     case "red":
+//         alert("Strawberries are red");
+//         break;
+//     case "cyan":
+//         alert("I don't know anything about cyan");
+//         break;
+//     default:
+//         alert(randomColor);
+//         break;
+//
+// }
+// console.log(randomColor)
 /**
  * TODO:
  * Prompt the user for a color when the page loads, and pass the input from the
  * user to your `analyzeColor` function. Alert the return value from your
  * function to show it to the user.
  */
+
+analyzeColor(prompt("Enter your favorite color: "))
+    {
+     alert(analyzeColor(randomColor));
+
+}
 
 /* ########################################################################## */
 
@@ -66,6 +120,37 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * Test your function by passing it various values and checking for the expected
  * return value.
  */
+
+var luckyNum = [0, 1, 2, 3, 4, 5]
+var randomNum = luckyNum[Math.floor(Math.random() * luckyNum.length)];
+var total = prompt("Please enter your total amount: $")
+
+
+switch (calculateTotal(luckyNum, total)){
+
+    case (randomNum === 0):
+        alert("Sorry, discount not applied" + total);
+        break;
+    case (randomNum === 1):
+        alert("10% discount! $" + (total/100))
+        break;
+    case (randomNum === 2):
+        alert("25% discount! $" + (total/100))
+        break;
+    case (randomNum === 3):
+        alert("35% discount! $" + (total/100))
+        break;
+    case (randomNum === 4):
+        alert("50% discount! $" + (total/100))
+        break;
+    case (randomNum === 5):
+        alert("Entire order is FREE!" + (total - total))
+        break;
+    default:
+        alert("Error")
+
+
+}
 
 /**
  * TODO:
