@@ -53,9 +53,8 @@
 
 //#5
 
-// for(var i = 100; i > 0; i--){
-//     if(i % 5 === 0){
-//         console.log(i);
-//     }
-// }
-
+for(var i = 100; i > 0; i--){
+    if(i % 5 === 0){
+        console.log(i);
+    }
+}
