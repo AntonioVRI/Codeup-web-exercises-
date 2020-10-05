@@ -174,7 +174,7 @@ var favoriteFoods = ["Pizza", "Tacos", "Whataburger"];
 //         alert(shapes[i] + "s are my favorite shape!");
 //     }
 // }
-//switching var to equals 2 will not allow the first 2 items in the array to run through the loop
+//switching var to equals 2 will not allow the first 2 elements in the array to run through the loop
 
 // TODO: What are benefits of using loops to iterate?
 
@@ -182,6 +182,7 @@ var favoriteFoods = ["Pizza", "Tacos", "Whataburger"];
 
 // TODO: How does the loop know when to stop iterating?
 
+//break; or continue;
 
 // TODO: Using a for loop, iterate through the instructors array and console.log each instructor
 
@@ -195,6 +196,12 @@ var favoriteFoods = ["Pizza", "Tacos", "Whataburger"];
 // }
 
 // TODO: Using a for loop, iterate through the daysOfTheWeek array and console.log each day of the week
+
+for(var i = 0; i < daysOfTheWeek.length; i++){
+    console.log(daysOfTheWeek);
+
+}
+
 // TODO: Using a for loop, iterate through the favoriteFoods array and console.log each favorite food
 
 // TODO: Refactoring the instructor loop, alert "hey, I know <INSTRUCTOR NAME HERE>" if you have had class with that instructor. If you have not had class with that instructor, alert "I haven't had class with <INSTRUCTOR NAME HERE> yet!"
