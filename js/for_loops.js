@@ -1,24 +1,26 @@
 "use strict";
 
+//#1
+
+// Create a file named for_loops.js inside the js directory and link it to your loops.html file.
+
 
 //#2
 
 // function showMultiplicationTable(input){
-//     for(i = 0; i <= 10; i++){
-//         var i = 0;
-//
-//         console.log(input + " x " + i + " = " + (input * i));
+//     for(var i = 1; i <= 10; i++){
+//         var product = input * i;
+//         console.log(input + " x " + i + " = " + product);
 //
 //
 //     }
 // }
-
+// showMultiplicationTable(7);
 
 //#3
 
-
     // for (var i = 0; i < 10; i++){
-    //     var luckyNumber = Math.floor((Math.random() * (200 - 20 + 1)) + 20);
+    //     var luckyNumber = Math.floor((Math.random() * 180) + 20);
     //
     //     if (luckyNumber % 2 === 0) {
     //         console.log(luckyNumber + " is even");
@@ -35,26 +37,30 @@
 
 // function numberPyramid() {
 //
-//
-//     var emptyString = '';
-//
 //     for (var i = 1; i <= 9; i++) {
+//
+//         var emptyString = '';
 //
 //         for (var x = 1; x <= i; x++) {
 //
-//             emptyString += i + ' ';
+//             emptyString += i;
 //         }
 //         console.log(emptyString);
-//         emptyString = '';
+//
 //     }
 // }
 // numberPyramid()
 
+//solution 2 pyramid
+
+// for (var i = 1; i <=9; i++){
+//     console.log(i.toString().repeat(i));
+// }
 
 //#5
 
-for(var i = 100; i > 0; i--){
-    if(i % 5 === 0){
-        console.log(i);
-    }
-}
+// for(var i = 100; i > 0; i--){
+//     if(i % 5 === 0){
+//         console.log(i);
+//     }
+// }
