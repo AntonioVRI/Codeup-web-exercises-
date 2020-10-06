@@ -10,6 +10,14 @@ console.log("Welcome to Intro to Objects!");
  * key:value pairs
  */
 
+var rubberDuck ={
+    color:  "yellow",
+    role:   "emotional support",
+    name:   "cody"
+
+};
+// console.log(rubberDuck);
+
 
 /*********************************************
  *              CREATING NEW OBJECTS
@@ -23,6 +31,8 @@ console.log("Welcome to Intro to Objects!");
 /**
  * TODO TOGETHER: Create a new variable (of type Object) and call it 'myPhone'. Use either the constructor or Object literal notation.
  */
+
+
 
 /**
  * TODO: Create a new Object and call it 'myMac'. use either the constructor or Object literal notation.
