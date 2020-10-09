@@ -10,3 +10,25 @@ function sayHello(name) {
     }
     sayHello(name1);
     sayHello(name3);
+
+
+
+
+
+    //oct.nine
+
+function split(string){return string.split(" ");
+
+
+}
+
+
+let inputString = "Trick or Treat";
+let inputArray = inputString.split('');
+
+inputArray.forEach(function (element) {
+    console.log(element)
+
+})
+
+
