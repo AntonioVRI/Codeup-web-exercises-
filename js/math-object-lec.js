@@ -69,11 +69,13 @@ console.log(randomWord);
 
 
 // Math.pow()
+
 // This is used to raise one number to the power of another number
 // i.e. 4 ^ 2 = 16
 // i.e. 8 ^ 3 = 512
 let exponentResult = Math.pow(4,2);
 console.log("4 squared (or 4^2) = " + exponentResult)
+
 
 // What is another way we could find 8^x power? (hint: using a loop)
 let base = 8;
@@ -88,4 +90,64 @@ for (let i=0; i<exponent; i++){
 
 
 console.log(base + " to the " + exponent + " power = " + result);
+
+
+// Math.sqrt()
+
+console.log("The square root of 16 is = " + Math.sqrt(16));
+console.log("The square root of 64 = " + Math.sqrt(64));
+
+
+// ********** Constants ********** //
+
+// Math.PI
+// π is used to calculate the circumference and area of a circle - can also be used to
+// get the diameter / radius of a circle, when you only have the circumference or area of said circle
+// Circumference = 2 * π * r = π * D(diameter)º
+// alt + shift + 8 = °
+
+// let's find the circumference of a circle with a diameter of 5
+let circumference = Math.PI * 5;
+console.log("Cicumference of a circe with diameter of 5 = " + circumference);
+
+// let's also find that circle's area
+// Area of a Circle = π*r^2
+let area = Math.PI * Math.pow(2.5, 2); // π * 2.5^2
+console.log("Area of a circle with a diameter of 5 = " + area.toFixed(3));
+
+// Math.E
+console.log("Euler's constant is equal to: " + Math.E);
+
+
+
+
+
+
+
+
+// Pre-exercise warmup:
+
+// Write a method to find a random number within a range of 2 numbers
+// (min and a max)
+// HINT: the min and max should be passed into the method as parameters
+
+
+
+// randomNUM = random # between 500 - 1000
+let randomNUM = Math.ceil(Math.random() * 500) + 500;
+console.log(randomNUM);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
