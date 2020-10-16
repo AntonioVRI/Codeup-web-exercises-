@@ -1,0 +1,29 @@
+/* selector for id="container" */
+#container {
+    margin: 50px auto;
+    width: 500px;
+    padding: 10px;
+}
+
+h1, h2 {
+    float:right;
+}
+/* (multiple selectors) both will have the same style definition and separated with commas */
+
+
+h1.fancy-header {
+    color: purple;
+    text-decoration: underline;
+}
+/* (combining selectors) .fancy-header will only be applicable to h1 elements */
+
+#container>h1 {
+    color: blue;
+}
+/* (direct-child selector) '>' only direct child of parent selector will receive the style. */
+
+div p {
+    color: red;
+}
+/* (descendant selector) will select all <p> elements inside of <div>  */
+
