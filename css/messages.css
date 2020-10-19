@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Ubuntu, sans-serif;
+}
+.message{
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    background-color: cornflowerblue;
+    margin: .5em auto;
+    width: 300px;
+    padding: .5em;
+
+}
+
+.message-info{
+    background: #CDDEFF;
+
+}
+
+.box-2{
+
+    background-color: mediumseagreen;
+    margin: 10px;
+    width: 300px;
+}
+.box-3{
+
+    background-color: yellow;
+    margin: 10px;
+    width: 300px;
+
+}
+.box-4{
+
+    background-color: lightpink;
+    margin: 10px;
+    width: 300px;
+}
