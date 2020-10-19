@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>warmup</title>
+
+    <style type="text/css">
+
+        UL {
+            background: azure;
+            margin: 12px 12px 12px 12px;
+            padding: 3px 3px 3px 3px;
+        }
+        LI {
+            color: white;
+            background: blue;
+            margin: 12px 12px 12px 12px;
+            padding: 12px 0px 12px 12px;
+            list-style: none;
+        }
+        LI.withborder {
+            border-style: dashed;
+            border-width: medium;
+            border-color: lime;
+        }
+
+    </style>
 </head>
 <body>
 <h1>Daily Warmup</h1>
+
+<UL>
+    <LI>First element of the list
+    <LI class="withborder">Second element of list is a bit longer to illustrate wrapping.</LI>
+</UL>
+
 
 <script src="js/warmup.js"></script>
 
