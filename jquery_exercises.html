@@ -9,6 +9,35 @@
 </head>
 <body>
 
+
+
+
+<script>
+
+        $(document).ready(function() {
+                "use strict";
+
+            $('h1').click(function(e) {
+                $(e.target.css('background', 'red');
+            });
+
+            $('p').dblclick(function(e) {
+                $(e.target).css('font-size', '18px');
+            });
+
+            $('li').hover(function(e) {
+                $(e.target).css('color', 'red');
+            }, function(e) {
+                $(e.target).css('color', 'black');
+            });
+
+        });
+
+</script>
+
+
+
 <script src="js/jquery-3.5.1.js"></script>
 </body>
 </html>
+
