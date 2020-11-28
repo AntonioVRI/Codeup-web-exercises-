@@ -44,10 +44,6 @@ users.push({
   languages: languages
 });
 
-// TODO: replace `var` with `let` in the following variable declarations
-let emails = [];
-let names = [];
-
 // TODO: rewrite the following using arrow functions
 users.forEach(function(user) {
   return emails.push(user.email);
