@@ -5,33 +5,33 @@
 *****************************************************************/
 //TODO TOGETHER: Create a newDog object using shorthand syntax
 
-// let breed = "Pug";
-// let age = 3;
-// let dogName = "Lexie";
-// let isCute = true;
+let breed = "Pug";
+let age = 3;
+let dogName = "Lexie";
+let isCute = true;
 
-//old way
-// let oldDog = {
-// 	breed: breed,
-// 	age: age,
-// 	dogName: dogName,
-// 	isCute: isCute
-// }
-//
-// console.log(oldDog);
+// old way
+let oldDog = {
+	breed: breed,
+	age: age,
+	dogName: dogName,
+	isCute: isCute
+}
+
+console.log(oldDog);
 
 
 
-// //new way
+//new way
 
-// let newDog = {
-// 	breed,
-// 	age,
-// 	dogName,
-// 	isCute
-// }
+let newDog = {
+	breed,
+	age,
+	dogName,
+	isCute
+}
 
-// console.log(newDog);
+console.log(newDog);
 
 
 
@@ -48,21 +48,21 @@ var personA = {
 	age: 4
 };
 
-// // old way
-// var name = personA.name;
-// var age = personA.age;
-//
-//
-// console.log(name); // 'codeup'
-// console.log(age); // 4
+// old way
+var name = personA.name;
+var age = personA.age;
+
+
+console.log(name); // 'codeup'
+console.log(age); // 4
 
 
 //TODO TOGETHER: REFACTOR the above approach using ES6
 
 
-// const {name, age} = personA;
-// console.log(name);
-// console.log(age);
+const {name, age} = personA;
+console.log(name);
+console.log(age);
 
 
 
@@ -78,25 +78,25 @@ const pals = {
 	mouse: "Jerry"
 };
 
-//old way
-// let myDog = pals.dog;
-// let myCat = pals.cat;
-// let myMouse = pals.mouse;
-//
-//
-// console.log(myDog); //Spike
-// console.log(myCat); //Tom
-// console.log(myMouse); //Jerry
+// old way
+let myDog = pals.dog;
+let myCat = pals.cat;
+let myMouse = pals.mouse;
+
+
+console.log(myDog); //Spike
+console.log(myCat); //Tom
+console.log(myMouse); //Jerry
 
 
 //TODO TOGETHER: REFACTOR the above approach using ES6
-//new way
+new way
 
-// const{dog: yourDog, cat, mouse} = pals;
-//
-// console.log(yourDog);
-// console.log(cat);
-// console.log(mouse);
+const{dog: yourDog, cat, mouse} = pals;
+
+console.log(yourDog);
+console.log(cat);
+console.log(mouse);
 
 
 /*==============================================*/
