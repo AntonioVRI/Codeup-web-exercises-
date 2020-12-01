@@ -8,10 +8,15 @@
 
     <script src="/js/jquery-3.5.1.js"></script>
     <script>
-        "use strict";
-
-        $(document).keyup(function(event){
-            console.log(event.keyCode);
+        $(document).ready(function () {
+            "use strict";
+            var konami=[38,40,38,40,37,39,37,39,66,65,13]
+            $(document).on('keyup', function (e) {
+                if(e.keyCode==konami){
+                    $('body').css('backgroundColor','red')
+                    alert('You have added 30 lives!');
+                };
+            });
         });
     </script>
 </body>

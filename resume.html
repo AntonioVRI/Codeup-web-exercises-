@@ -1,32 +1,144 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>T-Block Resume</title>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+
 </head>
-<body>
 
-    <h1>CODY THE DUCK</h1>
-    <h2>Software Developer</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto illo molestiae mollitia nostrum numquam placeat quibusdam reiciendis rerum velit.</p>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    
-    <section>
+    <style>
+        #custom .section-header, #cody{
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+        }
 
-    </section>
+        #cody{
+            letter-spacing: 5px;
+        }
+
+        #custom #hr-height{
+            border-top: 5px solid #94AA75;
+        }
+
+        .section-header{
+            color: #4f82fb;
+        }
+
+</style>
+<body id="custom">
+<div class="container pt-5 pb-5" id="main-container">
+
+    <div id="header">
+        <div class="row text-center">
+            <div class="col-12 ml-5 text-left" id="name-col">
+                <h1 id="cody">CODY THE DUCK</h1>
+            </div>
+        </div>
+
+        <div class="row text-center mt-3" id="software-col">
+            <div class="col-12">
+                <h2>Software Developer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid dicta, distinctio magni quaerat quia. Atque commodi consectetur corporis culpa, cupiditate error, expedita hic minima</p>
+            </div>
+        </div>
+
+        <div class="row mt-3 text-center" id="contact-row">
+            <div class="col-12 col-lg-3 network-icon">
+                <i class="fas fa-phone-alt"></i>
+                210-123-12234
+             </div>
+
+            <div class="col-12 col-lg-3 network-icon">
+                <i class="fas fa-envelope"></i>
+                cody@codeup.com
+            </div>
+
+            <div class="col-12 col-lg-3 network-icon">
+                <i class="fab fa-linkedin-in"> </i>
+                @cody-the-duck
+            </div>
+            <div class="col-12 col-lg-3 network-icon">
+                <i class="fab fa-github"></i> @cody-the-duck
+            </div>
+
+        </div>
+    </div>
+
+    <hr id="hr-height">
+    <!---->
+    <div class="row">
+        <div class="col-12 md-4" id="left-col">
+            <div class="pt-4">
+                <h4 class="section-header ">SKILLS AND ABILITIES</h4>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Bootstrap</li>
+                </ul>
+             </div>
+
+            <div class="pt-4">
+                <h4 class="section-header ">ACADEMIC</h4>
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aut consequatur deleniti dicta quas saepe tenetur </p>
+            </div>
+
+            <div class="pt-4">
+                <h4 class="section-header ">Professional Experience</h4>
+                <p>Job 2</p>
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aut consequatur deleniti dicta quas saepe tenetur </p>
+
+                <p>Job 1</p>
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aut consequatur deleniti dicta quas saepe tenetur </p>
+            </div>
+
+        </div>
+
+         <div class="col-12 col-md-8" id="right-col">
+           <div class="pt-4">
+                <h4 class="section-header">DEVELOPMENT PROJECTS</h4>
+
+                <p>Project 3</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                <p>Project 2</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                <p>Project 1</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="pt-4">
+                <h4 class="section-header">AWARDS AND INVOLVEMENT</h4>
+
+                <p>AWARD 1</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                <p>INVOLVEMENT 1</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+         </div>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</div>
 
 </body>
 </html>
